@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Document</title>
+    <style>
+        body{
+            color: aliceblue;
+            font-family: sans-serif;
+          
+            width: 100%;
+    height: 700px;
+    background-position: center;
+    background-image: linear-gradient( 
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(22, 21, 21, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+    ),url(netflix.jpg)
+      
+        }
+        .input{
+            background:rgba(27, 27, 27, 0.6) ;
+            color: aliceblue;
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="net.html" method="post">
+        <h1 align="center"> <ul> Registration Form</ul></h1>
+        First Name: <input class="input" type="text" name="name" autofocus placeholder="First Name"><br><br>
+        Last Name: <input class="input"  type="text " name="name" placeholder="Last Name"><br><br>
+        e-mail: <input type="email" class="input"  required placeholder="Email"><br><br>
+        Password: <input type="password" class="input"  required placeholder="Password "><br><br>
+        Date Of Birth: <input type="date" class="input"  placeholder="years" ><br><br>
+        Gender: <input type="radio" class="input"  name="gen">Male
+         <input type="radio" name="gen" class="input"  >Female
+         <br><br>
+         Mobile: <input type="number" class="input"  name="number" placeholder="0987654321"><br><br>
+         Address: <textarea name="Address" class="input"  cols="30" rows="10"></textarea><br><br>
+         <button input type="submit" class="input"  >Submit </button>
+            <button input type="reset" class="input">Reset</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,567 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  /* Added box-sizing for better layout control */
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;  /* Optional, to make the background color neutral */
+}
+
+/* Base Styles (Mobile First) */
+.aman {
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-image: linear-gradient(
+        rgba(0, 0, 0, 0.8) 0,
+        rgba(22, 21, 21, 0) 60%,
+        rgba(0, 0, 0, 0.8) 100%
+    ), url(netflix.jpg);
+}
+
+.aman1 {
+    margin-top: -30px;
+    margin-left: 10px; /* Adjusted for better alignment on small screens */
+}
+
+.aman2 {
+    margin-left: 10%;  /* Adjusted for small screens */
+    margin-top: -100px;
+    width: auto;
+}
+
+.aman3 {
+    width: auto;
+    background-color: black;
+    font-family: sans-serif;
+    color: aliceblue;
+    font-size: 15px;
+    padding: 5px 18px;
+    margin-top: 5px;
+    margin-left: 0;
+    border-radius: 4px;
+}
+
+.aman4 {
+    margin-left: 0;  /* Adjusted for better alignment */
+    color: aliceblue;
+    display: inline-block;
+    width: auto;
+    padding: 3px 7px;
+    background-color: red;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.aman4:hover {
+    background-color: rgb(162, 36, 36);
+    transition-duration: 0.5s;
+}
+
+.aman5 {
+    color: aliceblue;
+    font-size: 30px;  /* Adjusted for better readability on small screens */
+    text-align: center;
+    font-weight: 800;
+    margin-top: 10%;
+}
+
+.aman6 {
+    text-align: center;
+    font-size: 20px;  /* Adjusted font size */
+    color: aliceblue;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.aman7 {
+    text-align: center;
+    font-size: 18px;  /* Adjusted font size */
+    color: aliceblue;
+    margin-top: 10px;
+}
+
+/* Larger Screens (Tablets and up) */
+@media (min-width: 768px) {
+    .aman {
+        height: 600px;  /* Adjust height for medium screens */
+    }
+
+    .aman5 {
+        font-size: 40px;  /* Increase font size for larger screens */
+    }
+
+    .aman6 {
+        font-size: 25px;  /* Larger font size */
+    }
+
+    .aman7 {
+        font-size: 22px;  /* Larger font size */
+    }
+
+    .aman3 {
+        font-size: 18px;  /* Larger button text for medium screens */
+    }
+}
+
+/* Larger Screens (Laptops) */
+@media (min-width: 1024px) {
+    .aman {
+        height: 800px;  /* Adjust height for larger screens */
+    }
+
+    .aman1 {
+        margin-left: 160px;
+    }
+
+    .aman2 {
+        margin-left: 80%;
+        margin-top: -120px;
+    }
+
+    .aman3 {
+        font-size: 20px;  /* Larger button text */
+    }
+
+    .aman5 {
+        font-size: 50px;  /* Adjusted for larger screens */
+        margin-top: 14%;
+    }
+
+    .aman6 {
+        font-size: 30px;  /* Larger font size */
+    }
+
+    .aman7 {
+        font-size: 25px;  /* Larger font size */
+    }
+
+    .aman10 {
+        font-size: 24px;  /* Larger button text */
+    }
+
+    .aman11 {
+        height: 700px;  /* Adjust height for larger screens */
+    }
+
+    .aman12, .aman13 {
+        margin-left: 180px;  /* Adjust positioning */
+    }
+}
+
+/* Extremely Large Screens (Desktops) */
+@media (min-width: 1440px) {
+    .aman {
+        height: 900px;  /* Adjust height for very large screens */
+    }
+
+    .aman1 {
+        margin-left: 200px;
+    }
+
+    .aman3 {
+        font-size: 25px;  /* Larger button text */
+    }
+
+    .aman5 {
+        font-size: 60px;  /* Even larger font size */
+    }
+
+    .aman6 {
+        font-size: 35px;  /* Larger font size */
+    }
+
+    .aman7 {
+        font-size: 28px;  /* Larger font size */
+    }
+
+    .aman11 {
+        height: 800px;  /* Increase height for larger screens */
+    }
+}
+
+.aman8{
+    text-align: center;
+     display: flex;
+}
+.aman9{
+    margin-top: 30px;
+    background:rgba(27, 27, 27, 0.6) ;
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 480px;
+    padding: 18px 16px 10px ;
+     padding-right: 80px;
+    border: 1px solid rgb(104, 99, 97);
+    border-radius: 4px;
+}
+.aman10{
+    margin-top: 30px;
+    margin-left: 20px;
+    text-align: center;
+    background-color: red;
+    color: aliceblue;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 15px 10px 25px ;
+    border-radius: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+.aman10:hover{
+    background-color: rgb(170, 30, 30);
+    transition-duration: 1s;
+}
+.aman11{
+    background-color: black;
+    margin-top: -px;
+    margin-left: px;
+    width: 100%;
+    height: 582px;
+    border-top: 8px solid rgb(56, 52, 52);
+    display: flex;
+
+}
+.aman12{
+    font-size: 50px;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-top: 160px;
+    margin-left: 180px;
+    font-weight: 800;
+}
+.aman13{
+    font-size: 25px;
+    margin-top: -15px;
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-left: 180px;
+}
+
+.aman15{
+    margin-top: 100px;
+    margin-left: 85px;
+    width: 470px;
+    
+}
+.aman14{
+    position: absolute;
+    
+   
+}
+.aman16{
+    background-color: black;
+    width: 100%;
+    height: 582px;
+    margin-top: 0px;
+    margin-left: px;
+    border-top: 8px solid rgb(56, 52, 52);
+    display: flex;
+}
+.aman17{
+    height: 450px;
+    width: 600px;
+    margin-left: 180px;
+    margin-top: 65px;
+  position: absolute;
+}
+.box{ 
+    background-color: black;
+    width: 300px;
+    height: 72px;
+    position: relative;
+    top: 380px;
+    left: 320px;
+    display:flex;
+   border: 1px solid gray;
+   border-radius: 15px;
+   padding-top: 10px;
+  padding-left: 15px;
+  padding-bottom: 15px;
+
+
+}
+.aman18{
+    height: 72px;
+}
+.aman19{
+    width: 51px;
+    height: 72px;
+}
+.aman20{
+    color: aliceblue;
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.aman21{
+    color: rgb(50, 4, 252);
+    font-family: sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+.aman22{
+    margin-top: 10px;
+    margin-left: 60px;
+    display: block;
+    background: url(net4.gif);
+    width: 3rem;
+    height: 3rem;
+    background-size: 100%;
+
+}
+.box1{
+    position: relative;
+    top: 125px;
+    left: 450px;
+}
+.aman23{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+.aman24{
+    color: aliceblue;
+    margin-top: 0px;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    
+}
+.aman25{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+.aman26{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 5
+    px;
+}
+.box2{
+    background-color: black;
+    width: 100%;
+    height: 582px;
+    margin-top: 0px;
+    margin-left: px;
+    border-top: 8px solid rgb(56, 52, 52);
+    display: flex;
+    
+}
+.aman27{
+    position: relative;
+    top: 150px;
+    left: 180px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+.aman28{
+    position: relative;
+    top: 150px;
+    left: 180px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 10px;
+    
+}
+.aman29{
+    position: relative;
+    top: 150px;
+    left: 180px;
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 5px;
+}
+.aman30{margin-left: 223px;
+    margin-top: -490px;
+    position: absolute;
+    width: 579px;
+    height: 434px;
+    
+}
+.aman31{
+    width: 380px;
+    height: 600px;
+    position: relative;
+    top: -42px ;
+    left: 321px;
+}
+.box4{
+    background-color: black;
+    width: 100%;
+    height: 582px;
+    margin-top: 0px;
+    margin-left: px;
+    border-top: 8px solid rgb(56, 52, 52);
+    display: flex;
+}
+.aman32{
+    position: relative;
+    top: 60px;
+    left: 185px;
+}
+.box5{
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+.aman33{
+    color: aliceblue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+
+}
+.aman34{
+    
+    color: aliceblue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    margin-top: 0px;
+}
+.aman35{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.aman36{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.aman37{
+    color: aliceblue;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+.box6{
+    background-color: black;
+    width: 100%;
+    height: 900px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border-top: 8px solid rgb(56, 52, 52);
+}
+.aman38{
+    text-align: center;
+    position: relative;
+    top: 25px;
+    color: aliceblue;
+    font-size: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+}
+.aman39{
+    background-color: rgb(48, 46, 46);
+    color: aliceblue;
+    text-align: left;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 1.5rem;
+    width: 80%;
+    margin-left: 10% ;
+    margin-top: 10px;
+    border: none;
+    
+
+    
+}
+.aman39:hover{
+    background-color: rgb(90, 84, 84);
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.aman40{
+    color: aliceblue;
+    font-family: sans-serif;
+    text-align: center;font-size: 25px;
+}
+.box7{
+    background-color: black;
+    width: 100%;
+    height: 482px;
+    margin-top: 0px;
+    margin-left: px;
+    border-top: 8px solid rgb(56, 52, 52);
+
+}
+.aman41{
+    color: rgb(183, 188, 191);
+    font-family: sans-serif;
+    position: relative;
+    top: 50px;
+    left: 180px;
+    width: 300px;
+}
+.aman42{
+    color: rgb(175, 177, 180);
+    font-family: sans-serif;
+    
+}
+.box8{
+    margin-right: 0%;
+    width: 200px;
+    position: relative;
+    top: 80px;
+    left: 180px;
+    
+    
+}
+.aman43{
+    color: rgb(171, 173, 177);
+    font-family: sans-serif;
+    display: block;
+    margin-top: 20px;
+}
+.box9{
+    width: 200px;
+    margin-right: 200px;
+    position: relative;
+    top: 80px;
+    left: 400px;
+}
+.box10{
+    margin-right: 20px;
+    width: 200px;
+    position: relative;
+    top: 80px;
+    left:400px;
+    
+}
+.flex{
+    display: flex;
+}
+.box11{
+    width: 200px;
+    position: relative;
+    top: 170px;
+    left: 275px;
+}
+.aman44{
+    margin-top: 10px;
+    width: 200px;
+    color: rgb(171, 173, 177);
+    font-family: sans-serif;
+
+    position: relative;
+    top: 200px;
+    left: 175px;
+    
+}
